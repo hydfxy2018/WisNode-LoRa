@@ -1,0 +1,145 @@
+/*
+ / _____)             _              | |
+( (____  _____ ____ _| |_ _____  ____| |__
+ \____ \| ___ |    (_   _) ___ |/ ___)  _ \
+ _____) ) ____| | | || |_| ____( (___| | | |
+(______/|_____)_|_|_| \__)_____)\____)_| |_|
+    (C)2013 Semtech
+
+Description: contains hardaware configuration Macros and Constants
+
+License: Revised BSD License, see LICENSE.TXT file include in the project
+
+Maintainer: Miguel Luis and Gregory Cristian
+*/
+ /******************************************************************************
+  * @file    stm32l1xx_hw_conf.h
+  * @author  MCD Application Team
+  * @version V1.0.2
+  * @date    15-November-2016
+  * @brief   contains hardaware configuration Macros and Constants for stm32l1
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; Copyright (c) 2016 STMicroelectronics International N.V. 
+  * All rights reserved.</center></h2>
+  *
+  * Redistribution and use in source and binary forms, with or without 
+  * modification, are permitted, provided that the following conditions are met:
+  *
+  * 1. Redistribution of source code must retain the above copyright notice, 
+  *    this list of conditions and the following disclaimer.
+  * 2. Redistributions in binary form must reproduce the above copyright notice,
+  *    this list of conditions and the following disclaimer in the documentation
+  *    and/or other materials provided with the distribution.
+  * 3. Neither the name of STMicroelectronics nor the names of other 
+  *    contributors to this software may be used to endorse or promote products 
+  *    derived from this software without specific written permission.
+  * 4. This software, including modifications and/or derivative works of this 
+  *    software, must execute solely and exclusively on microcontroller or
+  *    microprocessor devices manufactured by or for STMicroelectronics.
+  * 5. Redistribution and use of this software other than as permitted under 
+  *    this license is void and will automatically terminate your rights under 
+  *    this license. 
+  *
+  * THIS SOFTWARE IS PROVIDED BY STMICROELECTRONICS AND CONTRIBUTORS "AS IS" 
+  * AND ANY EXPRESS, IMPLIED OR STATUTORY WARRANTIES, INCLUDING, BUT NOT 
+  * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+  * PARTICULAR PURPOSE AND NON-INFRINGEMENT OF THIRD PARTY INTELLECTUAL PROPERTY
+  * RIGHTS ARE DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW. IN NO EVENT 
+  * SHALL STMICROELECTRONICS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+  * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+  * OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+  * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
+  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  *
+  ******************************************************************************
+  */
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __RAK811_PINS_H__
+#define __RAK811_PINS_H__
+
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+/* Includes ------------------------------------------------------------------*/
+/* Exported types ------------------------------------------------------------*/
+/* Exported constants --------------------------------------------------------*/
+
+/* Enternal I/O definition */
+
+
+#define RAK811_PIN2_PORT                            GPIOB
+#define RAK811_PIN2_PIN                             GPIO_PIN_12
+
+#define RAK811_PIN3_PORT                            GPIOB
+#define RAK811_PIN3_PIN                             GPIO_PIN_14
+
+#define RAK811_PIN4_PORT                            GPIOB
+#define RAK811_PIN4_PIN                             GPIO_PIN_15
+
+#define RAK811_PIN5_PORT                            GPIOA
+#define RAK811_PIN5_PIN                             GPIO_PIN_8
+   
+#define RAK811_PIN6_PORT                            GPIOA
+#define RAK811_PIN6_PIN                             GPIO_PIN_9
+   
+#define RAK811_PIN7_PORT                            GPIOA
+#define RAK811_PIN7_PIN                             GPIO_PIN_10
+   
+#define RAK811_PIN8_PORT                            GPIOA
+#define RAK811_PIN8_PIN                             GPIO_PIN_12
+   
+#define RAK811_PIN9_PORT                            GPIOB
+#define RAK811_PIN9_PIN                             GPIO_PIN_4
+   
+#define RAK811_PIN10_PORT                            GPIOA
+#define RAK811_PIN10_PIN                             GPIO_PIN_13
+
+#define RAK811_PIN13_PORT                            GPIOA
+#define RAK811_PIN13_PIN                             GPIO_PIN_14
+
+#define RAK811_PIN14_PORT                            GPIOA
+#define RAK811_PIN14_PIN                             GPIO_PIN_15
+
+#define RAK811_PIN15_PORT                            GPIOB
+#define RAK811_PIN15_PIN                             GPIO_PIN_3
+
+#define RAK811_PIN16_PORT                            GPIOB
+#define RAK811_PIN16_PIN                             GPIO_PIN_5
+
+#define RAK811_PIN18_PORT                            GPIOB
+#define RAK811_PIN18_PIN                             GPIO_PIN_8
+
+#define RAK811_PIN19_PORT                            GPIOB
+#define RAK811_PIN19_PIN                             GPIO_PIN_9
+
+#define RAK811_PIN20_PORT                            GPIOA
+#define RAK811_PIN20_PIN                             GPIO_PIN_2
+
+#define RAK811_PIN22_PORT                            GPIOA
+#define RAK811_PIN22_PIN                             GPIO_PIN_1
+
+#define RAK811_PIN23_PORT                            GPIOA
+#define RAK811_PIN23_PIN                             GPIO_PIN_0
+
+#define RAK811_PIN25_PORT                            GPIOB
+#define RAK811_PIN25_PIN                             GPIO_PIN_10
+
+#define RAK811_PIN26_PORT                            GPIOB
+#define RAK811_PIN26_PIN                             GPIO_PIN_11
+   
+#define RAK811_PIN27_PORT                            GPIOB
+#define RAK811_PIN27_PIN                             GPIO_PIN_2
+   
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __HW_CONF_L1_H__ */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
